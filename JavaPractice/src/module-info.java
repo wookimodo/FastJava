@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Playdata
+ *
+ */
+module JavaPractice {
+}
