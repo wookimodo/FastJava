@@ -13,6 +13,7 @@ public class ObjectCopyTest {
 		library[3] = new Book("태백산맥4", "조정래");
 		library[4] = new Book("태백산맥5", "조정래");
 		
+		// 주소가 복사됨.
 		System.arraycopy(library, 0, copyLibrary, 0, 5);
 		
 		System.out.println("=== library ===");
@@ -26,5 +27,4 @@ public class ObjectCopyTest {
 			book.showInfo();
 		}
 	}
-
 }
