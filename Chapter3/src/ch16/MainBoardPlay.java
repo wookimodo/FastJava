@@ -14,7 +14,5 @@ public class MainBoardPlay {
 		SuperLevel sLevel = new SuperLevel();
 		player.upgradeLevel(sLevel);
 		player.play(3);
-		
 	}
-
 }
